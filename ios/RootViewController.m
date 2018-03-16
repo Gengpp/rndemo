@@ -29,6 +29,15 @@
   [self.view addSubview:btn];
   btn.frame = CGRectMake(20, 100, CGRectGetWidth(self.view.frame) - 40, 80);
   
+  
+  
+  UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
+  btn2.backgroundColor = [UIColor darkGrayColor];
+  [btn2 setTitle:@"HomeList" forState:UIControlStateNormal];
+  [btn2 addTarget:self action:@selector(btn2Clicked) forControlEvents:UIControlEventTouchUpInside];
+  [self.view addSubview:btn2];
+  btn2.frame = CGRectMake(20, 220, CGRectGetWidth(self.view.frame) - 40, 80);
+  
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,9 +45,13 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)btnClicked{
-  RNBaseViewController *rnVC = [[RNBaseViewController alloc] init];
+  RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"ItemCommentsList"}];
   [self.navigationController pushViewController:rnVC animated:YES];
 }
 
+- (void)btn2Clicked{
+  RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"HomeList"}];
+  [self.navigationController pushViewController:rnVC animated:YES];
+}
 
 @end

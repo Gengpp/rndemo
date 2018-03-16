@@ -47,7 +47,7 @@ RCT_EXPORT_METHOD(callbackMethod:(id)object resolver:(RCTResponseSenderBlock)cal
   }
 }
 
-
+//
 RCT_EXPORT_METHOD(goWebDetail:(id)object){
   if ([object isKindOfClass:[NSDictionary class]]) {
     NSString *avatar_url = [[[object objectForKey:@"item"] objectForKey:@"user"] objectForKey:@"avatar_url"];

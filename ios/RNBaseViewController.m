@@ -12,21 +12,29 @@
 #import "WebViewController.h"
 
 @interface RNBaseViewController ()
-
+@property (nonatomic, strong) NSDictionary *props;
 @end
 
 @implementation RNBaseViewController
-
+- (instancetype)initWithProps:(NSDictionary *)props{
+  self = [super init];
+  if (self) {
+    self.props = [NSDictionary dictionaryWithDictionary:props];
+  }
+  return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
   self.title = @"rn VC";
   self.edgesForExtendedLayout = UIRectEdgeNone;
   
+  //@"rndemo"
+  
   NSURL *jsCodeLocation;
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:@"rndemo"
+                                                      moduleName:self.props[@"moduleName"]
                                                initialProperties:nil
                                                    launchOptions:nil];
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];

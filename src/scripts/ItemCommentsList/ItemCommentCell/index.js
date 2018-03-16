@@ -11,7 +11,6 @@ import {
 
 const screenSize = Dimensions.get('window');
 
-
 type Props = {
     info: Object,
     onCellClick: (item: Object) => voids
@@ -69,8 +68,8 @@ export default class ListViewCell extends Component <Props> {
 
 const HomeItemCellStyles = StyleSheet.create({
     imageStyle: {
-        width: 50,
-        height: 50,
+        width: 40,
+        height: 40,
         margin: 10,
         borderColor: '#555555',
         borderWidth: 0.5,
@@ -88,6 +87,6 @@ const HomeItemCellStyles = StyleSheet.create({
         fontSize: 12,
         color: '#112233',
         left: 0,
-        top: 25
+        top: 15
     }
 });

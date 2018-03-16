@@ -10,4 +10,6 @@
 
 @interface RNBaseViewController : UIViewController
 
+- (instancetype)initWithProps:(NSDictionary *)props;
+
 @end
