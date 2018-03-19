@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+//moduleName
+static NSString * const kRN_MODULE_NAME = @"moduleName";
+
+//title
+static NSString * const kRN_TITLE = @"title";
+
+
 @interface RNBaseViewController : UIViewController
 
 - (instancetype)initWithProps:(NSDictionary *)props;
 
 @end
+
+

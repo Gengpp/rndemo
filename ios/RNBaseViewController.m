@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-  self.title = @"rn VC";
+  self.title = self.props[kRN_TITLE];
   self.edgesForExtendedLayout = UIRectEdgeNone;
   
   //@"rndemo"
@@ -34,7 +34,7 @@
   NSURL *jsCodeLocation;
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:self.props[@"moduleName"]
+                                                      moduleName:self.props[kRN_MODULE_NAME]
                                                initialProperties:nil
                                                    launchOptions:nil];
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];

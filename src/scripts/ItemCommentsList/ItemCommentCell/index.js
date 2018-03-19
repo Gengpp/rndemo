@@ -17,7 +17,7 @@ type Props = {
 };
 
 
-export default class ListViewCell extends Component <Props> {
+export default class ItemCommentCell  extends Component <Props> {
     onCellClick = () => {
         console.log('点击cell...............');
         const {item} = this.props;

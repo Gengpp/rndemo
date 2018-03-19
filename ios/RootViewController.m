@@ -45,12 +45,16 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)btnClicked{
-  RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"ItemCommentsList"}];
+  RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"ItemCommentsList",
+                                                                             @"title":@"Comment List"
+                                                                             }];
   [self.navigationController pushViewController:rnVC animated:YES];
 }
 
 - (void)btn2Clicked{
-  RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"HomeList"}];
+  RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"HomeList",
+                                                                             @"title":@"Home List"
+                                                                             }];
   [self.navigationController pushViewController:rnVC animated:YES];
 }
 
