@@ -9,8 +9,18 @@ import {
     Platform,
     StyleSheet,
     Text,
-    View
+    View,
+    FlatList, Dimensions,
+    Animated,
+    ActivityIndicator
 } from 'react-native';
+
+// import HomeItemCell from './HomeItemCell';
+import HomeListCell from './HomeListCell';
+
+const screenSize = Dimensions.get('window');
+//定义网络请求的url
+const request_url = 'https://m.toutiao.com/list/?ac=wap&count=20&format=json_raw&as=A1D51ADADF0CCC0&cp=5AAFFC9C2C807E1&min_behot_time=0';
 
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' +
@@ -21,21 +31,140 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
-    render() {
+    //声明创建各种props
+    constructor(props) {
+        super(props);
+        this.state = {
+            isLoading: true,
+            //网络请求状态
+            error: false,
+            errorInfo: "",
+            dataArray: [],
+        }
+    }
+
+    //网络请求
+    fetchData() {
+        //这个是js的访问网络的方法
+        fetch(request_url)
+            .then((response) => response.json())
+            .then((responseData) => {
+                let dataComments = responseData.data;
+                this.setState({
+                    //复制数据源
+                    dataArray: dataComments,
+                    isLoading: false,
+                });
+                data = null;
+                dataComments = null;
+            })
+            .catch((error) => {
+                this.setState({
+                    error: true,
+                    errorInfo: error
+                })
+            })
+            .done();
+    }
+
+    componentDidMount() {
+        //请求数据
+        this.fetchData();
+    }
+
+    //加载等待的view
+    renderLoadingView() {
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    Welcome to React Native!
-                </Text>
-                <Text style={styles.instructions}>
-                    To get started, edit App.js
-                </Text>
-                <Text style={styles.instructions}>
-                    {instructions}
+                <ActivityIndicator
+                    animating={true}
+                    style={[styles.gray, {height: 80}]}
+                    color='red'
+                    size="large"
+                />
+            </View>
+        );
+    }
+
+    //加载失败view
+    renderErrorView(error) {
+        return (
+            <View style={styles.container}>
+                <Text>
+                    Fail:这里请求访问失败！
                 </Text>
             </View>
         );
     }
+
+    //list 渲染cell
+    renderItemView({item}) {
+        return (
+            <View>
+                style = {styles.cell}
+                <HomeListCell
+                    item={item}
+                    // onCellClick={this.onCellClick}
+                ></HomeListCell>
+            </View>
+        );
+    }
+
+    //索引
+    keyExtractor = (item: Object, index: number): string => {
+        return `${index}`;
+    };
+
+    //分割线
+    _separator = () => {
+        return <View style={{height: 0.5, backgroundColor: 'red'}}/>;
+    }
+
+
+    renderData() {
+        console.log('渲染');
+        return (
+            <FlatList
+                style={styles.homeList}
+                keyExtractor={this.keyExtractor}
+                ItemSeparatorComponent={this._separator}//分割线
+                data={this.state.dataArray}
+                renderItem={this.renderItemView}
+            />
+        );
+    }
+    render() {
+        //第一次加载等待的view
+        if (this.state.isLoading && !this.state.error) {
+            return this.renderLoadingView();
+        } else if (this.state.error) {
+            //请求失败view
+            return this.renderErrorView(this.state.errorInfo);
+        }
+        //加载数据
+        return this.renderData();
+    }
+
+
+
+
+
+    //
+    // render() {
+    //     return (
+    //         <View style={styles.container}>
+    //
+    //
+    //             <FlatList
+    //                 style = {styles.homelistStyle}
+    //                 data={[{key: 'a'}, {key: 'b'}]}
+    //                 renderItem={({item}) => <HomeListCell></HomeListCell>}
+    //             />
+    //
+    //
+    //         </View>
+    //     );
+    // }
 }
 
 const styles = StyleSheet.create({
@@ -44,6 +173,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#F5FCFF',
+    },
+    homelistStyle: {
+        borderWidth: 1,
+        borderColor: '#ff0000',
+        width: screenSize.width,
+        height: screenSize.height
     },
     welcome: {
         fontSize: 20,
