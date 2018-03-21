@@ -22,6 +22,9 @@ const screenSize = Dimensions.get('window');
 //定义网络请求的url
 const request_url = 'https://m.toutiao.com/list/?ac=wap&count=20&format=json_raw&as=A1D51ADADF0CCC0&cp=5AAFFC9C2C807E1&min_behot_time=0';
 
+// const request_url = 'https://www.toutiao.com/api/pc/feed/?max_behot_time=1521620107&category=__all__&utm_source=toutiao&widen=1&tadrequire=true&as=A1F54AEB5251563&cp=5AB2F1253633CE1&_signature=nJt3.RAOxjUj7YYbqPIiC5ybd-';
+
+
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
@@ -49,19 +52,21 @@ export default class App extends Component<Props> {
         fetch(request_url)
             .then((response) => response.json())
             .then((responseData) => {
+                console.log(responseData);
                 let dataComments = responseData.data;
                 this.setState({
                     //复制数据源
                     dataArray: dataComments,
                     isLoading: false,
                 });
-                data = null;
                 dataComments = null;
             })
             .catch((error) => {
+                console.log('error' + error)
                 this.setState({
                     error: true,
                     errorInfo: error
+
                 })
             })
             .done();
@@ -104,8 +109,8 @@ export default class App extends Component<Props> {
                 style = {styles.cell}
                 <HomeListCell
                     item={item}
-                    // onCellClick={this.onCellClick}
-                ></HomeListCell>
+                    onCellClick={this.onCellClick}
+                />
             </View>
         );
     }
@@ -114,10 +119,9 @@ export default class App extends Component<Props> {
     keyExtractor = (item: Object, index: number): string => {
         return `${index}`;
     };
-
     //分割线
     _separator = () => {
-        return <View style={{height: 0.5, backgroundColor: 'red'}}/>;
+        return <View style={styles.separatorLine}/>;
     }
 
 
@@ -125,7 +129,7 @@ export default class App extends Component<Props> {
         console.log('渲染');
         return (
             <FlatList
-                style={styles.homeList}
+                style={styles.homelistStyle}
                 keyExtractor={this.keyExtractor}
                 ItemSeparatorComponent={this._separator}//分割线
                 data={this.state.dataArray}
@@ -144,27 +148,6 @@ export default class App extends Component<Props> {
         //加载数据
         return this.renderData();
     }
-
-
-
-
-
-    //
-    // render() {
-    //     return (
-    //         <View style={styles.container}>
-    //
-    //
-    //             <FlatList
-    //                 style = {styles.homelistStyle}
-    //                 data={[{key: 'a'}, {key: 'b'}]}
-    //                 renderItem={({item}) => <HomeListCell></HomeListCell>}
-    //             />
-    //
-    //
-    //         </View>
-    //     );
-    // }
 }
 
 const styles = StyleSheet.create({
@@ -175,10 +158,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#F5FCFF',
     },
     homelistStyle: {
-        borderWidth: 1,
-        borderColor: '#ff0000',
         width: screenSize.width,
-        height: screenSize.height
+        height: screenSize.height,
+        backgroundColor: '#252525'
     },
     welcome: {
         fontSize: 20,
@@ -190,4 +172,12 @@ const styles = StyleSheet.create({
         color: '#333333',
         marginBottom: 5,
     },
+    separatorLine:{
+        height: 0.3,
+        backgroundColor: '#c6c6c6',
+        marginLeft:10,
+        marginRight:10,
+        marginTop: 5,
+        marginBottom:5
+    }
 });

@@ -29,7 +29,7 @@
   [self.view addSubview:btn];
   btn.frame = CGRectMake(20, 100, CGRectGetWidth(self.view.frame) - 40, 80);
   
-  
+
   
   UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
   btn2.backgroundColor = [UIColor darkGrayColor];
