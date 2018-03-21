@@ -38,6 +38,14 @@
   [self.view addSubview:btn2];
   btn2.frame = CGRectMake(20, 220, CGRectGetWidth(self.view.frame) - 40, 80);
   
+  
+  UIButton *btn3 = [UIButton buttonWithType:UIButtonTypeCustom];
+  btn3.backgroundColor = [UIColor darkGrayColor];
+  [btn3 setTitle:@"内涵段子" forState:UIControlStateNormal];
+  [btn3 addTarget:self action:@selector(btn3Clicked) forControlEvents:UIControlEventTouchUpInside];
+  [self.view addSubview:btn3];
+  btn3.frame = CGRectMake(20, 320, CGRectGetWidth(self.view.frame) - 40, 80);
+  
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,6 +62,13 @@
 - (void)btn2Clicked{
   RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"HomeList",
                                                                              @"title":@"Home List"
+                                                                             }];
+  [self.navigationController pushViewController:rnVC animated:YES];
+}
+
+- (void)btn3Clicked{
+  RNBaseViewController *rnVC = [[RNBaseViewController alloc] initWithProps:@{@"moduleName":@"FunJokeList",
+                                                                             @"title":@"内涵段子"
                                                                              }];
   [self.navigationController pushViewController:rnVC animated:YES];
 }
