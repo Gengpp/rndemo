@@ -11,6 +11,10 @@
 #import <React/RCTRootView.h>
 #import "WebViewController.h"
 
+#import "KSPhotoBrowser.h"
+
+
+
 @interface RNBaseViewController ()
 @property (nonatomic, strong) NSDictionary *props;
 @end
@@ -52,6 +56,8 @@
 
 - (void)initNotification{
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoWebVC:) name:@"Notification_gotoWebVC" object:nil];
+  
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showImages:) name:@"Notification_showImage" object:nil];
 }
 
 
@@ -66,5 +72,18 @@
     });
   }
 }
-
+- (void)showImages:(NSNotification *)notif{
+  NSObject *url = notif.object;
+  if ([url isKindOfClass:[NSString class]]) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+      NSMutableArray *items = [[NSMutableArray alloc] init];
+//      UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+      KSPhotoItem *item = [KSPhotoItem itemWithSourceView:nil imageUrl:[NSURL URLWithString:url]];
+      [items addObject:item];
+      
+      KSPhotoBrowser *browser = [KSPhotoBrowser browserWithPhotoItems:items selectedIndex:0];
+      [browser showFromViewController:self];
+    });
+  }
+}
 @end

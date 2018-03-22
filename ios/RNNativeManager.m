@@ -56,5 +56,14 @@ RCT_EXPORT_METHOD(goWebDetail:(id)object){
 }
 
 
+//展示图片
+RCT_EXPORT_METHOD(showImages:(id)object){
+  if ([object isKindOfClass:[NSDictionary class]]) {
+    NSString *avatar_url = [object objectForKey:@"wpic_large"];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"Notification_showImage" object:avatar_url];
+  }
+}
+
+
 
 @end

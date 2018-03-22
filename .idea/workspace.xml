@@ -2,6 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12ec91e-dd20-47de-914a-7ed84158e63a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/FunJokeList/img/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/FunJokeList/img/funny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/FunJokeList/img/like@1.5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/FunJokeList/img/not_funny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSImageManagerProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSPhotoBrowser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSPhotoBrowser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSPhotoItem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSPhotoItem.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSPhotoView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSPhotoView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSProgressLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSProgressLayer.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSYYImageManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/KSPhotoBrowser/KSYYImageManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYDiskCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYDiskCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYKVStorage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYKVStorage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYMemoryCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Cache/YYMemoryCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/CALayer+YYWebImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/CALayer+YYWebImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/MKAnnotationView+YYWebImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/MKAnnotationView+YYWebImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/UIButton+YYWebImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/UIButton+YYWebImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/UIImage+YYWebImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/UIImage+YYWebImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/UIImageView+YYWebImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/UIImageView+YYWebImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/_YYWebImageSetter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Categories/_YYWebImageSetter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYAnimatedImageView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYAnimatedImageView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYFrameImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYFrameImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYImageCoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYImageCoder.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYSpriteSheetImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/Image/YYSpriteSheetImage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/YYImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/YYImageCache.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/YYWebImage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/YYWebImageManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/YYWebImageManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/YYWebImageOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/YYWebImage/YYWebImageOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scripts/FunJokeList/DateUtil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/RNBaseViewController.m" afterPath="$PROJECT_DIR$/ios/RNBaseViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/RNNativeManager.m" afterPath="$PROJECT_DIR$/ios/RNNativeManager.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/RootViewController.m" afterPath="$PROJECT_DIR$/ios/RootViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/rndemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/rndemo.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/FunJokeList/FunJokeListCell.js" afterPath="$PROJECT_DIR$/src/scripts/FunJokeList/FunJokeListCell.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/node_modules/react-native/lib/View.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -29,8 +87,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1435">
-              <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+            <state relative-caret-position="1425">
+              <caret line="108" column="32" lean-forward="false" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#89#130#0" expanded="true" />
@@ -42,8 +100,8 @@
       <file leaf-file-name="FunJokeListCell.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/FunJokeListCell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="607">
+              <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -51,41 +109,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetInfo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Network/NetInfo.js">
+      <file leaf-file-name="Podfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Podfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1834">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickPerformanceLogger.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Performance/QuickPerformanceLogger.js">
+      <file leaf-file-name="react-native-implementation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="855">
+              <caret line="57" column="56" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SamplingProfiler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Performance/SamplingProfiler.js">
+      <file leaf-file-name="DateUtil.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/DateUtil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Systrace.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Performance/Systrace.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-856">
-              <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+            <state relative-caret-position="645">
+              <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -94,8 +142,8 @@
       <file leaf-file-name="Alert.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Alert/Alert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="675">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -104,10 +152,22 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state relative-caret-position="1245">
+              <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
                 <element signature="e#1#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/ItemCommentCell/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="62" column="39" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="62" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +176,8 @@
       <file leaf-file-name="AlertIOS.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Alert/AlertIOS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="92" selection-end-column="53" />
+            <state relative-caret-position="1365">
+              <caret line="91" column="22" lean-forward="false" selection-start-line="91" selection-start-column="22" selection-end-line="92" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -153,6 +213,7 @@
       <find>dataArray</find>
       <find>dataComments</find>
       <find>isEmpty</find>
+      <find>a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,6 +233,8 @@
         <option value="$PROJECT_DIR$/src/scripts/HomeList/index.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/scripts/FunJokeList/index.js" />
+        <option value="$PROJECT_DIR$/src/scripts/FunJokeList/DateUtil.js" />
+        <option value="$PROJECT_DIR$/ios/Podfile" />
         <option value="$PROJECT_DIR$/src/scripts/FunJokeList/FunJokeListCell.js" />
       </list>
     </option>
@@ -234,8 +297,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,44 +309,7 @@
             <path>
               <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rndemo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rndemo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rndemo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rndemo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Alert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rndemo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rndemo" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-native" type="462c0819:PsiDirectoryNode" />
-              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Performance" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
@@ -302,6 +328,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="FunJokeList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rndemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="FunJokeList" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rndemo" type="b2602c69:ProjectViewProjectNode" />
@@ -335,6 +369,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scripts/FunJokeList/img" />
+      <recent name="$PROJECT_DIR$/src/scripts/FunJokeList" />
       <recent name="$PROJECT_DIR$/src/scripts/ItemCommentsList" />
     </key>
   </component>
@@ -365,12 +401,13 @@
       <updated>1521167369858</updated>
       <workItem from="1521167371193" duration="9289000" />
       <workItem from="1521517794921" duration="13333000" />
-      <workItem from="1521640911913" duration="2578000" />
+      <workItem from="1521640911913" duration="13799000" />
+      <workItem from="1521707288038" duration="983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32263000" />
+    <option name="totallyTimeSpent" value="44467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="2033" height="1097" extended-state="0" />
@@ -411,81 +448,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/ItemCommentCell/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#1#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/HomeList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#130#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/ItemCommentCell/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="144" column="35" lean-forward="true" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="35" />
-          <folding>
-            <element signature="e#1#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/HomeList/HomeListCell.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="76" column="10" lean-forward="true" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -493,9 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#128#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,10 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#130#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="58" lean-forward="true" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,9 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,9 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-239">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#89#128#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,10 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#130#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,14 +576,6 @@
           <folding>
             <element signature="e#1#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,19 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/ItemCommentCell/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,10 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="55" column="32" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#130#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="64" lean-forward="false" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#128#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="155" column="43" lean-forward="true" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1834">
           <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,38 +703,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-856">
           <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Alert/Alert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="675">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Alert/AlertIOS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="92" selection-end-column="53" />
+        <state relative-caret-position="1365">
+          <caret line="91" column="22" lean-forward="false" selection-start-line="91" selection-start-column="22" selection-end-line="92" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/DateUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="107" column="27" lean-forward="true" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/lib/View.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="56" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/img/like@1.5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/img/comment.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/img/not_funny.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/img/funny.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/ItemCommentCell/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="62" column="39" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="62" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/ItemCommentsList/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="1245">
+          <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="e#1#40#0" expanded="true" />
           </folding>
@@ -839,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1435">
-          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="1425">
+          <caret line="108" column="32" lean-forward="false" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#89#130#0" expanded="true" />
@@ -848,10 +804,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/FunJokeList/FunJokeListCell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="607">
+          <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

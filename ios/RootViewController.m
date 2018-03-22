@@ -46,6 +46,7 @@
   [self.view addSubview:btn3];
   btn3.frame = CGRectMake(20, 320, CGRectGetWidth(self.view.frame) - 40, 80);
   
+  
 }
 
 - (void)didReceiveMemoryWarning {
