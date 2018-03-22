@@ -20,9 +20,6 @@ type Props = {
 };
 
 export default class FunJokeListCell extends Component <Props> {
-
-
-
     constructor(props) {
         super(props);
         this.state = {
@@ -30,6 +27,14 @@ export default class FunJokeListCell extends Component <Props> {
         }
     };
 
+    //判断字符是否为空的方法
+    // isEmpty(obj){
+    //     if(typeof obj == "undefined" || obj == null || obj == ""){
+    //         return true;
+    //     }else{
+    //         return false;
+    //     }
+    // }
 
     onCellClick = () => {
         console.log('点击cell...............');
@@ -60,50 +65,41 @@ export default class FunJokeListCell extends Component <Props> {
 
     //渲染
     renderImagesContent() {
-        let imgHeight = new Number(this.props.item.wpic_m_height);
-        if (imgHeight > 400){
-            imgHeight = 400;
-        }
-        contentheigtht = imgHeight + 100;
-        console.log(imgHeight);
-        console.log(contentheigtht);
-
         return (
-
-            <View style =  {{backgroundColor: '#ffffff',
-                margin:10,
-                height:contentheigtht,
-                borderColor: '#555555',
-                borderWidth: 0.5}}>
+            <View style =  {HomeItemCellStyles.cell1Content}>
                 <Text style = {HomeItemCellStyles.title}>
                     {this.props.item.wbody}
                 </Text>
 
-
-                {/*<View style={HomeItemCellStyles.imgBackView}>*/}
-                    {/*<Image source={{uri: this.props.item.image_list[0].url}}*/}
-                           {/*style={HomeItemCellStyles.imageStyle}/>*/}
-                    {/*<Image source={{uri: this.props.item.image_list[1].url}}*/}
-                           {/*style={HomeItemCellStyles.imageStyle}/>*/}
-                    {/*<Image source={{uri: this.props.item.image_list[2].url}}*/}
-                           {/*style={HomeItemCellStyles.imageStyle}/>*/}
-                {/*</View>*/}
-
-
-
+                <Image source={{uri: this.props.item.wpic_small,cache: 'force-cache'}}
+                       style={HomeItemCellStyles.imageStyle}/>
             </View>
         );
     };
+    renderTextContent() {
+        return (
+            <View style =  {HomeItemCellStyles.cell1Content}>
+                <Text style = {HomeItemCellStyles.title}>
+                    {this.props.item.wbody}
+                </Text>
+            </View>
+        );
+    };
+
     render() {
-        return this.renderImagesContent();
+        if (this.props.item.wtype == '2'){
+            return this.renderImagesContent();
+        }
+        return this.renderTextContent();
+
     }
 }
 const HomeItemCellStyles = StyleSheet.create({
     cell1Content: {
+        flex: 1,
         backgroundColor: '#ffffff',
         margin:10,
-        height:contentheigtht,
-        borderColor: '#555555',
+        borderColor: '#111111',
         borderWidth: 0.5
     },
     imageStyle: {
@@ -113,7 +109,8 @@ const HomeItemCellStyles = StyleSheet.create({
         marginRight:10,
         marginBottom:5,
         borderColor: '#555555',
-        borderWidth: 0.5
+        borderWidth: 0.5,
+        height:200
     },
     imgBackView:{
         marginTop:5,
